@@ -1,0 +1,172 @@
+---
+- name: template
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/template.git
+  version: "main"
+
+- name: metrics-monitoring
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/metrics-monitoring.git
+  version: "main"
+
+- name: summary
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/summary.git
+  version: "main"
+
+- name: territoria
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/territoria.git
+  version: "main"
+
+- name: individuum
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/individuum.git
+  version: "main"
+
+- name: adp4
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/adp4.git
+  version: "main"
+
+- name: external-vms
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/external-vms.git
+  version: "main"
+
+- name: rusiem
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/rusiem.git
+  version: "main"
+
+- name: vm-templates
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/vm-templates.git
+  version: "main"
+
+- name: apimk
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/apimk.git
+  version: "main"
+
+- name: coredns
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/coredns.git
+  version: "main"
+
+- name: internal-services
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/internal-services.git
+  version: "main"
+
+- name: utils
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/utils.git
+  version: "main"
+
+- name: atlassian
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/atlassian.git
+  version: "main"
+
+- name: elasticsearch-logs
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/elasticsearch-logs.git
+  version: "main"
+
+- name: nemesida-waf
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/nemesida-waf.git
+  version: "main"
+
+- name: vitrina
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/vitrina.git
+  version: "main"
+
+- name: webast
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/webast.git
+  version: "main"
+
+- name: api
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/api.git
+  version: "main"
+
+- name: eksmoru
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/eksmoru.git
+  version: "main"
+
+- name: platforma
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/platforma.git
+  version: "main"
+
+- name: all-hosts
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/all-hosts.git
+  version: "main"
+
+- name: intranet
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/intranet.git
+  version: "main"
+
+- name: agw
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/agw.git
+  version: "main"
+
+- name: astru
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/astru.git
+  version: "main"
+
+- name: cn
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/cn.git
+  version: "main"
+
+- name: resizer-parser
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/resizer-parser.git
+  version: "main"
+
+- name: test-infra
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/test-infra.git
+  version: "main"
+
+- name: gitlab
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/gitlab.git
+  version: "main"
+
+- name: internal-balancers
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/internal-balancers.git
+  version: "main"
+
+- name: internal-services
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/internal-services.git
+  version: "main"
+
+- name: lk-authors
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/lk-authors.git
+  version: "main"
+
+- name: passwork
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/passwork.git
+  version: "main"
+
+- name: request-xo
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/request-xo.git
+  version: "main"
+
+- name: win-zabbix-new
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/win-zabbix-new.git
+  version: "main"
+
+- name: market-data-service
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/market-data-service.git
+  version: "main"
+
+- name: scheduling-deadlines
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/scheduling-deadlines.git
+  version: "main"
+
+- name: id-eksmo-office
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/id-eksmo-office.git
+  version: "main"
+
+- name: passport-eksmo-office
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/passport-eksmo-office.git
+  version: "main"
+
+- name: crm
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/crm.git
+  version: "main"
+
+- name: api-doc
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/api-doc.git
+  version: "main"
+
+- name: passwork
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/passwork.git
+  version: "main"
+
+- name: pay-eksmo
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/playbooks/pay-eksmo.git
+  version: "main"

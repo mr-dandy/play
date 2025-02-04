@@ -1,0 +1,36 @@
+- hosts: localhost
+
+  vars:
+    repos_path_roles: '../roles/'
+    repos_path_plays: '../plays/'
+  
+  tasks:
+
+  - name: Get reqs/roles.yml
+    set_fact:
+      reqs_roles: "{{ lookup('file', 'roles.yml')|from_yaml }}"
+    tags: [roles]
+
+  - name: Get reqs/plays.yml
+    set_fact:
+      reqs_plays: "{{ lookup('file', 'plays.yml')|from_yaml }}"
+    tags: [plays]
+    
+
+  - name: Fetch roles to localhost
+    git:
+      repo: "{{ item.src }}"
+      dest: "{{ repos_path_roles }}/{{ item.name }}"
+      version: "{{ item.version }}"
+    loop: "{{ reqs_roles }}"
+    ignore_errors: true
+    tags: [roles]
+
+  - name: Fetch plays to localhost
+    git:
+      repo: "{{ item.src }}"
+      dest: "{{ repos_path_plays }}/{{ item.name }}"
+      version: "{{ item.version }}"
+    loop: "{{ reqs_plays }}"
+    ignore_errors: true
+    tags: [plays]

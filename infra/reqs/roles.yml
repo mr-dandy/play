@@ -1,0 +1,112 @@
+---
+- name: template
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/template.git
+  version: "main"
+
+- name: laravel
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/laravel.git
+  version: "main"
+
+- name: angie
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/angie.git
+  version: "main"
+
+- name: keepalived
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/keepalived.git
+  version: "main"
+
+- name: coredns-docker
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/coredns-docker.git
+  version: "main"
+
+- name: etcd-cluster-docker
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/etcd-cluster-docker.git
+  version: "main"
+
+- name: ca-issue-certs
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/ca-issue-certs.git
+  version: "main"
+
+- name: cfssl-docker
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/cfssl-docker.git
+  version: "main"
+
+- name: mysql
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/mysql.git
+  version: "main"
+
+- name: krakend
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/krakend.git
+  version: "main"
+
+- name: mongodb
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/mongodb.git
+  version: "main"
+
+- name: nginx-conf
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/nginx-conf.git
+  version: "main"
+
+- name: fluentd
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/fluentd.git
+  version: "main"
+
+- name: opensearch-docker
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/opensearch-docker.git
+  version: "main"
+
+- name: dotnet 
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/dotnet.git 
+  version: "main" 
+
+- name: zabbix-agent2
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/zabbix-agent2.git
+  version: "main"
+
+- name: nginx
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/nginx.git
+  version: "main"
+
+- name: php-fpm
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/php-fpm.git
+  version: "main"
+
+- name: docker-ce
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/docker-ce.git
+  version: "main"
+
+- name: base-config
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/base-config.git
+  version: "main"
+
+- name: ansible-vault
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/ansible-vault.git
+  version: "main"
+
+- name: linux-access
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/linux-access.git
+  version: "main"
+
+- name: vmware-guest
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/vmware-guest.git
+  version: "main"
+
+- name: elasticsearch-docker
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/elasticsearch-docker.git
+  version: "main"
+
+- name: gitlab
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/gitlab.git
+  version: "main"
+
+- name: redis
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/redis.git
+  version: "main"
+
+- name: supervisor
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/supervisor.git
+  version: "main"
+
+- name: mailhog
+  src: ssh://git@git.eksmo-office.ru:5022/iac/ansible/roles/mailhog.git
+  version: "main"
